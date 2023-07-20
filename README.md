@@ -1,1 +1,2 @@
-# CIS-340-Team-2
+# ProjectTemplate
+copy this code into your own repository, and use it for your project as you see fit!
