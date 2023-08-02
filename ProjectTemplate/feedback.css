@@ -1,0 +1,48 @@
+* {
+    box-sizing: 	border-box;
+    margin: 		0;
+    font-family: 	sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,rgb(149, 222, 227) , rgb(245, 245, 240));
+}
+#head {
+    text-align: center;
+    height: 20vh;
+    font-size: 10vh;
+    clear: both;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+#feedbackListId {
+    justify-content: center;
+    font-size: 2vh;
+    clear: both;
+    text-align: center;
+
+}
+
+#textareaId {
+    height: 20vh;
+    width: 60vh;
+    font-size: 2vh;
+    text-align: center;
+    background-color: azure;
+
+}
+
+div {
+display: flex;
+justify-content: center;
+}
+
+#feedbackListHeadID {
+    display:none;
+    font-size: 5vh;
+}
+
+#inputNameId{
+    float: none;
+    clear: both;
+}

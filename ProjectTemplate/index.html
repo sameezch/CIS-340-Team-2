@@ -5,6 +5,7 @@
 	<title></title>
 	<!--DO NOT FORGET THIS SCRIPT TAG SO YOU CAN USE JQUERY!!!!!-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel=“stylesheet” type=“text/css” href=“feedback.css”>
 
 	<!--YOUR OWN JAVASCRIPT CAN GO RIGHT HERE-->
 	<script type="text/javascript">
@@ -30,14 +31,34 @@
 		}
 	</script>
 	<!--END OF YOUR OWN JAVASCRIPT-->
-
 	<!--AND YOUR OWN CSS CAN GO HERE AS WELL-->
 	<style>
-
 	</style>
 	<!--END OF YOUR OWN CSS-->
-</head >
+</head>
 <body>
+	<script src=“feedback.js”></script>
+	<h1 id=“head”>Feedback Board</h1>
+	<div>
+		<textarea name=“feedback” id=“textareaId” required placeholder=“Place you feedback here.“></textarea>
+	</div>
+	<br>
+	<div>
+		<input type=“text” id=“inputNameId” placeholder=“Name (Optional)“>
+		<!-- onclick feedback is submitted and textarea is cleared -->
+		<button onclick=“submitFeedback(), clearTextarea(this.form)” type=“button”>Submit</button>
+	</div>
+	<br>
+	<br>
+	<div>
+		<p id=“feedbackListHeadID”>Current Feedback List</p>
+	</div>
+	<br>
+	<div>
+		<ul id=“feedbackListId”>
+		</ul>
+	</div>
+
 	<button onclick="javascript: TestButtonHandler();">Click here to test connection!</button>
 </body>
 </html >
